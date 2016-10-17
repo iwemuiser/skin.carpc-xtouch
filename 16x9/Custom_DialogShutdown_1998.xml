@@ -140,7 +140,7 @@
 
 		<control type="group" id="5006">
 		<include>Window_OpenClose_Animation_Zoom</include>
-			<posx>490</posx>
+			<posx>400</posx>
 			<posy>500</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button" id="5007">
@@ -171,6 +171,39 @@
 			</control>
 		</control>
 
+
+		<control type="group" id="5010">
+		<include>Window_OpenClose_Animation_Zoom</include>
+			<posx>760</posx>
+			<posy>500</posy>
+			<include>VisibleFadeEffect</include>
+			<control type="button" id="5011">
+				<description>Button Close Kodi</description>
+                <onup>Control.SetFocus(5005)</onup>
+                <ondown>Control.SetFocus(5009)</ondown>
+                <posx>0</posx>
+				<posy>0</posy>
+				<width>200</width>
+				<height>80</height>
+				<font>-</font>
+				<texturefocus colordiffuse="$INFO[Skin.String(CustomColorFocus)]">button_outline.png</texturefocus>
+				<texturenofocus colordiffuse="$INFO[Skin.String(CustomColorNofocus)]">button_outline.png</texturenofocus>
+				<onclick>XBMC.ShutDown()</onclick>
+			</control>
+
+			<control type="label">
+				<description>Close Kodi</description>
+				<posx>0</posx>
+				<posy>20</posy>
+				<height>50</height>
+				<width>200</width>
+				<label>Close Kodi</label>
+				<align>center</align>
+				<aligny>top</aligny>
+				<font>font30_title</font>
+				<textcolor>FFFFFFFF</textcolor>
+			</control>
+		</control>
 
 		<control type="label">
 			<description>Window label</description>
