@@ -73,6 +73,8 @@
 		<spinheight>45</spinheight>
 		<textureup>Select_Up.png</textureup>
 		<texturedown>Select_Down.png</texturedown>
+		<textureupdisabled colordiffuse="40FFFFFF">Select_Up.png</textureupdisabled>
+		<texturedowndisabled colordiffuse="40FFFFFF">Select_Down.png</texturedowndisabled>
 		<textureupfocus>Select_Up.png</textureupfocus>
 		<texturedownfocus>Select_Down.png</texturedownfocus>
 		<align>right</align>
@@ -118,6 +120,8 @@
 		<radioheight>45</radioheight>
 		<textureradioon>radiobutton2-focus.png</textureradioon>
 		<textureradiooff>radiobutton2-nofocus.png</textureradiooff>
+		<textureradioondisabled colordiffuse="40FFFFFF">radiobutton2-focus.png</textureradioondisabled>
+		<textureradiooffdisabled colordiffuse="40FFFFFF">radiobutton2-nofocus.png</textureradiooffdisabled>
 		<texturefocus>button-focus.png</texturefocus>
 		<texturenofocus>button-nofocus.png</texturenofocus>
 		<label>215</label>
@@ -242,6 +246,6 @@
                 <texture>button-focus2.png</texture>
             </control>
 		</focusedlayout>
-	</default>    
+	</default>
 
 </includes>

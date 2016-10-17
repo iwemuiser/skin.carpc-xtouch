@@ -1,6 +1,5 @@
 <window id="2003">
 	<defaultcontrol always="true">49</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
 	<include>16x9_xPos_Relocation</include>
 	<include>Window_OpenClose_Animation_Zoom</include>
 	<coordinates>
@@ -891,6 +890,11 @@
 				<description>Refresh</description>
 				<include>ButtonInfoDialogsCommonValues</include>
 				<label>184</label>
+			</control>
+			<control type="button" id="7">
+				<description>Set my rating</description>
+				<include>ButtonInfoDialogsCommonValues</include>
+				<label>38023</label>
 			</control>
 			<control type="button" id="10">
 				<description>Get Art</description>

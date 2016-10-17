@@ -1,6 +1,5 @@
 <window type="dialog" id="1130">
 	<defaultcontrol always="false">10</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
 	<include>16x9_xPos_Relocation</include>
 	<include>Window_OpenClose_Animation_Zoom</include>
 	<onload>Control.SetFocus(811)</onload>
@@ -62,7 +61,7 @@
 		</control>
 
 
-		
+
 <!-- ### Color Tables ### -->
 
 <include>SkinColorList_First</include>

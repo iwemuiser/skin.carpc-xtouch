@@ -1,15 +1,14 @@
 <window id="1118">
 	<defaultcontrol always="true">5001</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
      <controls>
-		
+
 		<include>CommonBackground</include>
 		<include>CommonTopBar</include>
 		<include>CommonBottomBar</include>
 		<include>HomeButtonCommons</include>
         <include>BottomNowPLaying</include>
 <!--    <include>Time</include>  -->
-      
+
  		<control type="group" id="">
 		<include>Window_OpenClose_Animation_Zoom</include>
 			<posx>150</posx>
@@ -25,10 +24,10 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font30_title</font>
-				<textcolor>FFFFFFFF</textcolor>		
+				<textcolor>FFFFFFFF</textcolor>
 			</control>
 		</control>
-		
+
 		<control type="group" id="">
 		<include>Window_OpenClose_Animation_Zoom</include>
 			<posx>150</posx>
@@ -44,10 +43,10 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font30_title</font>
-				<textcolor>FFFFFFFF</textcolor>		
+				<textcolor>FFFFFFFF</textcolor>
 			</control>
 		</control>
-		
+
 		<control type="group" id="5000">
 		<include>Window_OpenClose_Animation_Zoom</include>
 			<posx>400</posx>
@@ -76,7 +75,7 @@
 				<align>center</align>
 				<aligny>top</aligny>
 				<font>font40_title</font>
-				<textcolor>$INFO[Skin.String(CustomColorNofocus)</textcolor>		
+				<textcolor>$INFO[Skin.String(CustomColorNofocus)</textcolor>
 			</control>
 		</control>
 
@@ -109,7 +108,7 @@
 				<align>center</align>
 				<aligny>top</aligny>
 				<font>font40_title</font>
-				<textcolor>$INFO[Skin.String(CustomColorNofocus)</textcolor>		
+				<textcolor>$INFO[Skin.String(CustomColorNofocus)</textcolor>
 			</control>
 		</control>
 
@@ -130,7 +129,7 @@
 			<include>MediaWindowTitleCommons</include>
 			<label>Connect 3G</label>
 		</control>
-		
+
 		<control type="group" id="5004">
            <include>Window_OpenClose_Animation_Slide_Up</include>
             <posx>95r</posx>
@@ -147,10 +146,10 @@
                 <texturenofocus colordiffuse="$INFO[Skin.String(CustomColorNofocus)]" border="4">icon_back_w.png</texturenofocus>
                 <texturefocus colordiffuse="$INFO[Skin.String(CustomColorFocus)]" border="4">icon_back_w.png</texturefocus>
                 <onclick>back</onclick>
-            </control>   
+            </control>
         </control>
-		
+
 		<include>BehindDialogFadeOut</include>
-		      
-   </controls>      
+
+   </controls>
 </window>

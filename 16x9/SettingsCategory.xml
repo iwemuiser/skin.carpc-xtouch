@@ -1,16 +1,15 @@
 <window id="12">
 	<defaultcontrol>3</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
 	<controls>
 		<include>CommonBackground</include>
 		<include>CommonTopBar</include>
 		<include>CommonBottomBar</include>
-		<!-- <include>CommonBackgroundOverlay</include> -->
+		<include>CommonBackgroundOverlay</include>
 		<include>HomeButtonCommons</include>
 		<include>CommonNowPlaying</include>
 
 		<include>BottomNowPLaying</include>
-		
+
 		<control type="label">
 			<description>Window label</description>
 			<include>MediaWindowTitleCommons</include>

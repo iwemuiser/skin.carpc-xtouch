@@ -1,13 +1,12 @@
 <window id="2600">
 	<defaultcontrol always="true">50</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
 	<controls>
 		<include>CommonBackground</include>
-		<!-- <include>CommonBackgroundOverlay</include> -->
+		<include>CommonBackgroundOverlay</include>
 		<include>CommonTopBar</include>
 		<include>HomeButtonCommons</include>
 		<include>CommonNowPlaying</include>
-		
+
 		<control type="label">
 			<description>Window label</description>
 			<include>MediaWindowTitleCommons</include>

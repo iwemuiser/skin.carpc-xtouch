@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="1117" type="window">
     <defaultcontrol always="true">7100</defaultcontrol>
-    <allowoverlay>true</allowoverlay>
     <controls>
 		<include>CommonBackground</include>
 		<include>CommonBackgroundAddons</include>
@@ -19,7 +18,7 @@
                 <effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" />
                 <effect type="fade" start="100" end="0" time="300" />
             </animation>
-			
+
             <!--control type="image">
                 <posx>8</posx>
                 <posy>8</posy>
@@ -45,7 +44,7 @@
                 <visible>system.getbool(input.enablemouse)</visible>
             </control-->
 
-			
+
 			<control type="group">
 				<posx>75</posx>
 				<posy>95</posy>
@@ -67,7 +66,7 @@
 					<posx>0</posx>
 					<posy>50</posy>
 					<width>1760</width>
-					<height>250</height> 
+					<height>250</height>
 					<onleft>7100</onleft>
 					<onright>7100</onright>
 					<onup>7300</onup>
@@ -83,7 +82,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
 							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
@@ -109,7 +108,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
 							<bordertexture border="12">Frames-and-Borders/Border-FO.png</bordertexture>
@@ -122,7 +121,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
 							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
@@ -154,12 +153,12 @@
 							<visible>!Control.HasFocus(7100)</visible>
 						</control>
 					</focusedlayout>
-					
+
 					<content target="Video">addons://sources/video</content>
-						
+
 				</control>
 			</control>
-			
+
 			<control type="group">
 				<posx>75</posx>
 				<posy>390</posy>
@@ -180,7 +179,7 @@
 					<posx>0</posx>
 					<posy>50</posy>
 					<width>1760</width>
-					<height>250</height> 
+					<height>250</height>
 					<onleft>7200</onleft>
 					<onright>7200</onright>
 					<onup>7100</onup>
@@ -196,7 +195,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
 							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
@@ -222,7 +221,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
 							<bordertexture border="12">Frames-and-Borders/Border-FO.png</bordertexture>
@@ -235,7 +234,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
 							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
@@ -267,15 +266,15 @@
 							<visible>!Control.HasFocus(7200)</visible>
 						</control>
 					</focusedlayout>
-					
+
 					<content target="Video">addons://sources/audio</content>
-						
+
 				</control>
 			</control>
-			
+
 			<control type="group">
 				<posx>75</posx>
-				<posy>685</posy> 
+				<posy>685</posy>
 				<visible>!Skin.HasSetting(UseBigBordersAndPanels)</visible>
 				<control type="label">
 					<description>header label</description>
@@ -293,7 +292,7 @@
 					<posx>0</posx>
 					<posy>50</posy>
 					<width>1760</width>
-					<height>250</height>  
+					<height>250</height>
 					<onleft>7300</onleft>
 					<onright>7300</onright>
 					<onup>7200</onup>
@@ -309,7 +308,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
 							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
@@ -335,7 +334,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
 							<bordertexture border="12">Frames-and-Borders/Border-FO.png</bordertexture>
@@ -348,7 +347,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
 							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
@@ -380,12 +379,12 @@
 							<visible>!Control.HasFocus(7300)</visible>
 						</control>
 					</focusedlayout>
-					
+
 					<content target="Video">addons://sources/executable</content>
-						
+
 				</control>
 			</control>
-			
+
 			<control type="group">
 				<posx>75</posx>
 				<posy>65</posy>
@@ -422,7 +421,7 @@
 							<width>220</width>
 							<height>250</height>
 							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
 							<visible></visible>
@@ -433,7 +432,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>keep</aspectratio>    
+							<aspectratio>keep</aspectratio>
 							<alignx>center</alignx>
 							<aligny>top</aligny>
 							<bordersize>7</bordersize>
@@ -458,7 +457,7 @@
 							<width>220</width>
 							<height>250</height>
 							<texture background="true" border="7">Frames-and-Borders/SpezBorder_FO.png</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
 							<visible>Control.HasFocus(7100)</visible>
@@ -469,7 +468,7 @@
 							<width>220</width>
 							<height>250</height>
 							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
 							<visible>!Control.HasFocus(7100)</visible>
@@ -480,7 +479,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>keep</aspectratio>    
+							<aspectratio>keep</aspectratio>
 							<alignx>center</alignx>
 							<aligny>top</aligny>
 							<bordersize>7</bordersize>
@@ -498,11 +497,11 @@
 							<label>$INFO[ListItem.Label]</label>
 							<visible></visible>
 						</control>
-					</focusedlayout>					
-					<content target="Video">addons://sources/video</content>						
+					</focusedlayout>
+					<content target="Video">addons://sources/video</content>
 				</control>
 			</control>
-			
+
 			<control type="group">
 				<posx>75</posx>
 				<posy>360</posy>
@@ -539,7 +538,7 @@
 							<width>220</width>
 							<height>250</height>
 							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
 							<visible></visible>
@@ -550,7 +549,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>keep</aspectratio>    
+							<aspectratio>keep</aspectratio>
 							<alignx>center</alignx>
 							<aligny>top</aligny>
 							<bordersize>7</bordersize>
@@ -575,7 +574,7 @@
 							<width>220</width>
 							<height>250</height>
 							<texture background="true" border="7">Frames-and-Borders/SpezBorder_FO.png</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
 							<visible>Control.HasFocus(7200)</visible>
@@ -586,7 +585,7 @@
 							<width>220</width>
 							<height>250</height>
 							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
 							<visible>!Control.HasFocus(7200)</visible>
@@ -597,7 +596,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>keep</aspectratio>    
+							<aspectratio>keep</aspectratio>
 							<alignx>center</alignx>
 							<aligny>top</aligny>
 							<bordersize>7</bordersize>
@@ -615,11 +614,11 @@
 							<label>$INFO[ListItem.Label]</label>
 							<visible></visible>
 						</control>
-					</focusedlayout>				
-					<content target="Video">addons://sources/audio</content>						
+					</focusedlayout>
+					<content target="Video">addons://sources/audio</content>
 				</control>
 			</control>
-			
+
 			<control type="group">
 				<posx>75</posx>
 				<posy>655</posy>
@@ -640,7 +639,7 @@
 					<posx>0</posx>
 					<posy>50</posy>
 					<width>1760</width>
-					<height>250</height> 
+					<height>250</height>
 					<onleft>7300</onleft>
 					<onright>7300</onright>
 					<onup>7200</onup>
@@ -656,7 +655,7 @@
 							<width>220</width>
 							<height>250</height>
 							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
 							<visible></visible>
@@ -667,7 +666,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>keep</aspectratio>    
+							<aspectratio>keep</aspectratio>
 							<alignx>center</alignx>
 							<aligny>top</aligny>
 							<bordersize>7</bordersize>
@@ -692,7 +691,7 @@
 							<width>220</width>
 							<height>250</height>
 							<texture background="true" border="7">Frames-and-Borders/SpezBorder_FO.png</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
 							<visible>Control.HasFocus(7300)</visible>
@@ -703,7 +702,7 @@
 							<width>220</width>
 							<height>250</height>
 							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
-							<aspectratio>stretch</aspectratio>    
+							<aspectratio>stretch</aspectratio>
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
 							<visible>!Control.HasFocus(7300)</visible>
@@ -714,7 +713,7 @@
 							<width>200</width>
 							<height>200</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<aspectratio>keep</aspectratio>    
+							<aspectratio>keep</aspectratio>
 							<alignx>center</alignx>
 							<aligny>top</aligny>
 							<bordersize>7</bordersize>
@@ -732,13 +731,13 @@
 							<label>$INFO[ListItem.Label]</label>
 							<visible></visible>
 						</control>
-					</focusedlayout>					
-					<content target="Video">addons://sources/executable</content>						
+					</focusedlayout>
+					<content target="Video">addons://sources/executable</content>
 				</control>
 			</control>
-			
-			
-			
+
+
+
 		</control>
         <include>CommonNowPlaying</include>
         <include>MainWindowMouseButtons</include>

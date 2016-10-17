@@ -1,19 +1,18 @@
 <window id="502">
 	<defaultcontrol always="true">50</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
 	<views>50,500</views>
 	<onunload>Skin.Reset(MediaSubMenuVisible2)</onunload>
 	<controls>
 		<include>CommonBackground</include>
-		<!-- <include>CommonBackgroundOverlay</include> -->
+		<include>CommonBackgroundOverlay</include>
 		<include>CommonTopBar</include>
 		<include>CommonBottomBar</include>
-		<include>FileCountCommons</include> 
+		<include>FileCountCommons</include>
 		<include>HomeButtonCommons</include>
 		<include>CommonNowPlaying</include>
-		<!-- <include>OptionsButtonCommons</include> -->
+		<include>OptionsButtonCommons</include>
 		<include>BottomNowPLaying</include>
-		
+
 		<control type="label">
 			<description>Window label</description>
 			<include>MediaWindowTitleCommons</include>
@@ -27,7 +26,7 @@
 			<onright>Control.SetFocus(556)</onright>
 		</control>
 		<include>ScrollBarCommons</include>
-		<include>MediaSubMenu</include> 
+		<include>MediaSubMenu</include>
 		<control type="group">
 			<visible>Skin.HasSetting(MediaSubMenuVisible2)</visible>
 			<include>VisibleFadeEffect</include>
@@ -104,14 +103,6 @@
 						<altlabel>31050</altlabel>
 						<usealttexture>Container.SortDirection(Ascending)</usealttexture>
 					</control>
-					<control type="radiobutton" id="99">
-						<description>Library button</description>
-						<label>$LOCALIZE[29800]</label>
-						<onclick>Skin.Reset(MediaSubMenuVisible2)</onclick>
-						<onclick>ReplaceWindow(MusicFiles)</onclick>
-						<selected>Window.IsVisible(MusicLibrary)</selected>
-						<include>ButtonCommonValues2</include>
-					</control>
 					<control type="button" id="8">
 						<description>Search</description>
 						<include>ButtonCommonValues2</include>
@@ -126,7 +117,7 @@
 				</control>
 			</control>
 		</control>
-		
+
 		<include>ScrollOffsetLabel</include>
 		<include>BehindDialogFadeOut</include>
 	</controls>

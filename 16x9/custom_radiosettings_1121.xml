@@ -1,6 +1,5 @@
 <window type="dialog" id="1120">
 	<defaultcontrol always="false">10</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
 	<include>16x9_xPos_Relocation</include>
 	<include>Window_OpenClose_Animation_Zoom</include>
 	<coordinates>
@@ -15,7 +14,7 @@
 			<width>1000</width>
 			<height>60</height>
 			<texture border="5">DialogHeader.png</texture>
-		</control> 
+		</control>
 		<control type="label">
 			<description>header label</description>
 			<posx>20</posx>
@@ -60,7 +59,7 @@
 <!-- ### Page 1 ############################################################################################ -->
 
 
-<!--  Background  -->		        
+<!--  Background  -->
 		<control type="grouplist" id="100">
 			<description>Settings 1 Menu</description>
 <!--		<visible>Skin.String(RadioSettings,1)</visible> -->
@@ -111,20 +110,20 @@
 			<onleft>2</onleft>
 			<onright>30</onright>
 <!--		<visible>Skin.String(RadioSettings,1)</visible> -->
-								
+
 			<control type="radiobutton" id="102">
 				<height>55</height>
 				<width>920</width>
 				<font>font24_title</font>
 				<label>$LOCALIZE[31093]</label>
 				<textcolor>white</textcolor>
-				<focusedcolor>$INFO[Skin.String(CustomColorFocus)]</focusedcolor>						
+				<focusedcolor>$INFO[Skin.String(CustomColorFocus)]</focusedcolor>
 				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
 				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 				<onclick>Skin.ToggleSetting(UseCustomRadioBackground)</onclick>
 				<selected>Skin.HasSetting(UseCustomRadioBackground)</selected>
 			</control>
-					
+
 			<control type="button" id="203">
 				<height>55</height>
 				<width>920</width>
@@ -132,14 +131,14 @@
 				<label>$LOCALIZE[31094]</label>
 				<label2>[COLOR=selected]$INFO[Skin.String(CustomRadioBackgroundPath)][/COLOR]</label2>
 				<textcolor>white</textcolor>
-				<focusedcolor>$INFO[Skin.String(CustomColorFocus)]</focusedcolor>						
+				<focusedcolor>$INFO[Skin.String(CustomColorFocus)]</focusedcolor>
 				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
 				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 				<onclick>Skin.SetImage(CustomRadioBackgroundPath)</onclick>
 				<enable>Skin.HasSetting(UseCustomRadioBackground)</enable>
 			</control>
 		</control>
-			
+
 <!-- ### Page 1 Ende ####################################################################################### -->
 
 <!-- Menu-1 -->

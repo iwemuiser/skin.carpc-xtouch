@@ -1038,120 +1038,6 @@
     
 <!-- Ende Clock  -->
     
-
-	<include name="TempText1">
-		<control type="label">
-			<description>Temp Top Left</description>
-			<posx>45</posx>
-			<posy>10</posy>
-			<height>40</height>
-			<width>500</width>
-			<label>$INFO[Window(Home).Property(Temp1)] 1</label> 
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>font40_title</font>
-			<textcolor>$INFO[Skin.String(CustomColorNofocus)]</textcolor>
-		</control> 
-	</include>    
-	<include name="TempText2">
-		<control type="label">
-			<description>Temp Top Left</description>
-			<posx>45</posx>
-			<posy>10</posy>
-			<height>40</height>
-			<width>500</width>
-			<label>$INFO[Window(Home).Property(Temp2)] 2</label> 
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>font40_title</font>
-			<textcolor>$INFO[Skin.String(CustomColorNofocus)]</textcolor>
-		</control> 
-	</include> 	
-	<include name="TempText3">
-		<control type="label">
-			<description>Temp Top Left</description>
-			<posx>45</posx>
-			<posy>10</posy>
-			<height>40</height>
-			<width>500</width>
-			<label>$INFO[Window(Home).Property(Temp3)] 3</label> 
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>font40_title</font>
-			<textcolor>$INFO[Skin.String(CustomColorNofocus)]</textcolor>
-		</control> 
-	</include> 
-	<include name="TempText4">
-		<control type="label">
-			<description>Temp Top Left</description>
-			<posx>45</posx>
-			<posy>10</posy>
-			<height>40</height>
-			<width>500</width>
-			<label>$INFO[Window(Home).Property(Temp4)] 4</label> 
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>font40_title</font>
-			<textcolor>$INFO[Skin.String(CustomColorNofocus)]</textcolor>
-		</control> 
-	</include> 
-	<include name="TempText5">
-		<control type="label">
-			<description>Temp Top Left</description>
-			<posx>45</posx>
-			<posy>10</posy>
-			<height>40</height>
-			<width>500</width>
-			<label>$INFO[Window(Home).Property(Temp5)] 5</label> 
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>font40_title</font>
-			<textcolor>$INFO[Skin.String(CustomColorNofocus)]</textcolor>
-		</control> 
-	</include> 
-	<include name="TempText6">
-		<control type="label">
-			<description>Temp Top Left</description>
-			<posx>45</posx>
-			<posy>10</posy>
-			<height>40</height>
-			<width>500</width>
-			<label>$INFO[Window(Home).Property(Temp6)] 6</label> 
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>font40_title</font>
-			<textcolor>$INFO[Skin.String(CustomColorNofocus)]</textcolor>
-		</control> 
-	</include> 
-	<include name="TempText7">
-		<control type="label">
-			<description>Temp Top Left</description>
-			<posx>45</posx>
-			<posy>10</posy>
-			<height>40</height>
-			<width>500</width>
-			<label>$INFO[Window(Home).Property(Temp7)] 7</label> 
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>font40_title</font>
-			<textcolor>$INFO[Skin.String(CustomColorNofocus)]</textcolor>
-		</control> 
-	</include> 
-	<include name="TempText8">
-		<control type="label">
-			<description>Temp Top Left</description>
-			<posx>45</posx>
-			<posy>10</posy>
-			<height>40</height>
-			<width>500</width>
-			<label>$INFO[Window(Home).Property(Temp8)] 8</label> 
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>font40_title</font>
-			<textcolor>$INFO[Skin.String(CustomColorNofocus)]</textcolor>
-		</control> 
-	</include> 
-
     
     
     <include name="MusicPlayerTitleFix">
@@ -1833,7 +1719,7 @@
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>ScreenWidth</width>
+			<include>ScreenWidth</include>
 			<height>ScreenHeight</height>
 			<texture>black.png</texture>
 			<visible>Player.HasVideo</visible>
@@ -1841,7 +1727,7 @@
 		<control type="videowindow">
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>ScreenWidth</width>
+			<include>ScreenWidth</include>
 			<height>ScreenHeight</height>
 			<visible>Player.HasVideo</visible>
 		</control>
@@ -2429,7 +2315,6 @@
                 <ondown condition="Control.IsVisible(87)">Control.SetFocus(87)</ondown>
 				<onright condition="Control.IsVisible(667)">667</onright>
 				<onright condition="Control.IsVisible(557)">Control.SetFocus(557)</onright>
-                <ondown condition="Control.IsVisible(5001)">Control.SetFocus(5001)</ondown>
             </control>
 <!--        <control type="image">
                 <description>Home Button Image</description>
@@ -2476,7 +2361,7 @@
         </control>
     </include>
 
-    <include name="OptionsButtonCommons">
+    <include name="OptionsButtonCommons-old">
         <control type="group">
             <include>Window_OpenClose_Animation_Slide_Down</include>
             <posx>75r</posx>

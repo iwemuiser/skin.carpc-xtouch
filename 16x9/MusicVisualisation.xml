@@ -1,6 +1,5 @@
 <window id="2006">
 	<defaultcontrol>9002</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
 	<controls>
 		<control type="image">
 			<posx>0</posx>
@@ -8,16 +7,16 @@
 			<width>ScreenWidth</width>
 			<height>ScreenHeight</height>
 			<visible>Skin.HasSetting(UseVisBgFull)</visible>
-			<texture>$INFO[Skin.String(CustomVisBgFullPath)]</texture> 
-		</control>  
+			<texture>$INFO[Skin.String(CustomVisBgFullPath)]</texture>
+		</control>
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>ScreenWidth</width>
 			<height>ScreenHeight</height>
 			<visible>!Skin.HasSetting(UseVisBgFull)</visible>
-			<texture>$INFO[Skin.String(CustomBackgroundPath)]</texture> 
-		</control>  
+			<texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
+		</control>
 		<control type="visualisation">
 			<description>visualisation</description>
 			<posx>0</posx>
@@ -37,8 +36,8 @@
 				<posy>0</posy>
 				<width>ScreenWidth</width>
 				<height>105</height>
-				<colordiffuse>AAFFFFFF</colordiffuse> 
-				<texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>  
+				<colordiffuse>AAFFFFFF</colordiffuse>
+				<texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
 			</control>
 			<control type="label">
 				<description>row 1 label</description>
